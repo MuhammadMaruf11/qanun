@@ -1,0 +1,32 @@
+## `All Pages`
+
+    -[ ] phone advice - phone consultant and should link
+    -[ ] debt and invoice collection
+    -[x] legal subscription
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]
+    -[x]

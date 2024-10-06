@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Frontend" content="3rudit3" />
+    <meta
+      name="description"
+      content="Web site created using HTML, CSS, JavaScript, Bootstrap, jQuery"
+    />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/icons/favicon.svg"
+    />
+    <!-- all css link  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/css/meanmenu.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <!-- document title  -->
+    <title>QANUN</title>
+  </head>
+  <body>
+    <!-- Loader HTML -->
+    <div id="loader" class="loader">
+      <div class="spinner">
+        <img src="./assets/img/logo/loader.png" alt="Loader" />
+      </div>
+    </div>
+
+    <div id="content">
+      <!-- header start  -->
+      <header class="header-area">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-3">
+              <div class="header-logo">
+                <a href="./index.html">
+                  <img
+                    src="./assets/img/logo/header_logo.svg"
+                    alt="header_logo"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block">
+              <div class="menu-dropdown">
+                <a href="javascript:void(0)" id="menuToggle">
+                  <span>All Services</span>
+                  <img src="./assets/img/icons/down-chevron.svg" alt="icon" />
+                </a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="header-right">
+                <div class="search-bar-wrapper">
+                  <a
+                    href="javascript:void(0)"
+                    class="search-wrap d-none d-lg-inline-block"
+                  >
+                    <form id="searchForm" action="#" class="search-form">
+                      <input
+                        type="text"
+                        placeholder="Search..."
+                        class="search-input d-none"
+                        id="searchInput"
+                      />
+                      <button
+                        type="submit"
+                        class="submit-search d-none"
+                        id="submitSearch"
+                      >
+                        <img src="./assets/img/icons/search.svg" alt="icon" />
+                      </button>
+                    </form>
+                    <div id="searchIcon">
+                      <img
+                        src="./assets/img/icons/search.svg"
+                        alt="icon"
+                        id="searchImage"
+                      />
+                      <img
+                        class="d-none"
+                        src="./assets/img/icons/times.svg"
+                        alt="icon"
+                        id="closeImage"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="./track-service.html"
+                  class="header-btn d-none d-lg-flex btn-1"
+                >
+                  <img src="./assets/img/icons/pointer-track.svg" alt="icon" />
+                  <span> Track Service</span>
+                </a>
+                <a href="./sign-in.html" class="header-btn btn-2">
+                  <span>Sign In</span>
+                </a>
+                <a href="javascript:void(0)" class="menu-btn btn-3 d-lg-none">
+                  <img src="./assets/img/icons/bars.svg" alt="icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-mega-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mega-menu-wrap">
+                <ul>
+                  <li>
+                    <a href="./start-business.html">
+                      <img src="./assets/img/icons/banner-1.svg" alt="icon" />
+                      <span>Start Business </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-2.svg" alt="icon" />
+                      <span>Change in Business </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-3.svg" alt="icon" />
+                      <span>Drafting</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-4.svg" alt="icon" />
+                      <span>Legal Issues</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-5.svg" alt="icon" />
+                      <span>Registrations</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-6.svg" alt="icon" />
+                      <span>Other Services </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-7.svg" alt="icon" />
+                      <span>Filings & more</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-8.svg" alt="icon" />
+                      <span>Utilities</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- header end -->
+      <main>
+        <!-- sign in section start  -->
+
+        <section class="track-service-area">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xl-8 col-lg-9 col-md-10">
+                <div class="track-service-wrap">
+                  <div class="track-service-img">
+                    <img src="./assets/img/bg/track-service.png" alt="bg" />
+                  </div>
+                  <div class="sign-in-form">
+                    <div class="form-title">
+                      <h2>Track your service</h2>
+                    </div>
+                    <form class="form-input">
+                      <!-- <div class="form-floating">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="emailPhone"
+                          placeholder="E-mail or Phone"
+                        />
+                        <label for="emailPhone">E-mail or Phone</label>
+                      </div> -->
+                      <div class="form-floating mb-4">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="service"
+                          placeholder="Service ID"
+                        />
+                        <label for="service">Service ID</label>
+                      </div>
+                      <div class="form-btn">
+                        <button type="submit">Track</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- sign in section end -->
+      </main>
+    </div>
+    <!-- Scripts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/aos.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,780 @@
+/* Laptop layout min 1200px */
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .search-input {
+    right: 36.5%;
+    width: 310px;
+  }
+
+  .submit-search {
+    right: 38%;
+  }
+}
+
+/* Mini laptop layout min 769px */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-logo {
+    width: 200px;
+  }
+
+  .mega-menu-wrap ul li {
+    width: 310px;
+  }
+
+  .search-input {
+    right: 40%;
+    width: 350px;
+  }
+
+  .submit-search {
+    right: 42%;
+    width: 24px;
+    height: 24px;
+  }
+
+  /* banner css  */
+
+  /* consultancy css  */
+
+  .consultancy-slide-active .swiper-slide {
+    border-radius: 20px;
+    padding: 15px;
+  }
+
+  .consultancy-slide-title h2 {
+    font-size: 28px;
+  }
+
+  .consultancy-slide-description {
+    margin-bottom: 20px;
+  }
+
+  .consultancy-slide-description p {
+    font-size: 14px;
+  }
+
+  .consultancy-slide-btn a {
+    column-gap: 10px;
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+  }
+
+  .consultancy-slide-btn a span {
+    font-size: 14px;
+  }
+
+  .consultancy-slide-btn a img {
+    width: 18px;
+  }
+
+  /* work css  */
+
+  .work-left {
+    left: 0px;
+  }
+
+  .work-books {
+    left: 30px;
+  }
+
+  .work-right {
+    right: 0;
+  }
+
+  .work-laptop {
+    right: 50px;
+  }
+
+  .work-area .nav-tabs .nav-link {
+    font-size: 24px;
+    width: 234px;
+    height: 60px;
+  }
+
+  /* download css  */
+
+  .download-title h2 {
+    font-size: 52px;
+  }
+
+  .download-description p {
+    font-size: 24px;
+  }
+
+  /* client review css  */
+
+  .client-review-title h2 {
+    font-size: 72px;
+  }
+
+  .client-comment p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .client-review-button .btn-prev,
+  .client-review-button .btn-next {
+    width: 65px;
+    height: 65px;
+  }
+
+  .client-review-button .btn-prev {
+    left: -35px;
+  }
+  .client-review-button .btn-next {
+    right: -35px;
+  }
+
+  /* sub pages css  */
+
+  .hiring-title {
+    margin-top: -160px;
+  }
+
+  .hiring-title h1 {
+    font-size: 100px;
+    line-height: 80px;
+  }
+
+  .hiring-btn a {
+    font-size: 28px;
+    padding: 30px 90px;
+  }
+}
+
+/* Tablet Layout wide: 768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-btn {
+    transform: scale(2);
+  }
+
+  /* banner css  */
+  .banner-area.banner-clip {
+    background: url("../img/bg/banner-bg-large.png");
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    background-size: contain;
+  }
+
+  .banner-services-items {
+    background: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+  }
+
+  .banner-services-items .row > * {
+    padding: 0;
+  }
+
+  .banner-items-wrap {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 1px solid #efefef;
+    padding: 50px 32px;
+  }
+
+  .banner-title {
+    margin-bottom: 50px;
+  }
+
+  .banner-title h1 {
+    font-size: 60px;
+  }
+
+  .banner-btn a {
+    background: #000;
+    color: #fff;
+  }
+
+  .banner-btn a img {
+    filter: invert(1);
+  }
+
+  .banner-btn a:hover {
+    background: #059e8f;
+    color: #fff;
+  }
+
+  .common-banner-title.nav-title {
+    margin-bottom: 20px;
+  }
+
+  .banner-nav-tab {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .banner-nav-tab .nav-tabs {
+    width: max-content;
+    padding: 12px 0;
+  }
+
+  .banner-tab-area {
+    background: linear-gradient(180deg, #d6f1ee 15%, #ffffff 15%);
+  }
+
+  .banner-video-wrap {
+    margin-bottom: 24px;
+  }
+
+  .banner-sticky-wrap {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    border-top: 0;
+  }
+
+  /* consultancy css  */
+
+  .swiper-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* work css  */
+
+  .work-area {
+    padding: 325px 0 100px;
+  }
+
+  .work-bg img {
+    width: 75%;
+  }
+
+  .work-left {
+    left: 0px;
+  }
+
+  .work-books {
+    left: 30px;
+  }
+
+  .work-middle {
+    text-align: center;
+  }
+
+  .work-paper {
+    bottom: -60px;
+  }
+
+  .work-right {
+    right: 0;
+    text-align: right;
+  }
+
+  .work-laptop {
+    right: 50px;
+    text-align: right;
+  }
+
+  .work-area .nav-tabs .nav-link {
+    font-size: 24px;
+    width: 234px;
+    height: 60px;
+  }
+
+  /* download css  */
+
+  .download-area {
+    border-radius: 100px 100px 0 0;
+    overflow-x: hidden;
+  }
+
+  .download-title h2 {
+    font-size: 72px;
+    text-align: center;
+  }
+
+  .download-description p {
+    text-align: center;
+  }
+
+  .download-link {
+    column-gap: 40px;
+    justify-content: center;
+  }
+
+  /* client review css  */
+
+  .client-review-button .btn-prev,
+  .client-review-button .btn-next {
+    width: 65px;
+    height: 65px;
+  }
+
+  .client-review-button .btn-prev {
+    left: -25px;
+  }
+  .client-review-button .btn-next {
+    right: -25px;
+  }
+
+  /* sub pages css  */
+
+  .hiring-title {
+    margin-top: -110px;
+  }
+
+  .hiring-title h1 {
+    font-size: 72px;
+    line-height: 55px;
+  }
+
+  .hiring-btn a {
+    font-size: 24px;
+    padding: 15px 50px;
+  }
+
+  /* footer css  */
+
+  .footer-area {
+    padding: 80px 0 40px;
+  }
+
+  .footer-widget,
+  .footer-bottom-wrap,
+  .footer-social {
+    margin-bottom: 24px;
+  }
+}
+
+/* Mobile layout max 425 */
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 95%;
+  }
+
+  .header-logo {
+    width: 90px;
+  }
+
+  .header-btn.btn-2 {
+    border-radius: 100px;
+    border: 1px solid #000;
+    padding: 0 13px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-size: 14px;
+    height: 25px;
+    font-weight: 400;
+  }
+
+  .menu-btn {
+    margin-left: 20px;
+  }
+
+  /* banner css  */
+  .banner-area.banner-clip {
+    background: url("../img/bg/banner-bg.png");
+    background-repeat: no-repeat;
+    padding: 15px 0;
+    background-size: contain;
+  }
+
+  .banner-area .container {
+    max-width: 100%;
+  }
+
+  .banner-services-items {
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1px solid #efefef;
+  }
+
+  .banner-services-items .row > * {
+    padding: 0;
+  }
+
+  .banner-items-wrap {
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 1px solid #efefef;
+    padding: 15px;
+  }
+
+  .banner-title {
+    margin-bottom: 20px;
+  }
+
+  .banner-title h1 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .banner-item-img {
+    width: 55px;
+  }
+
+  .banner-item-text h5 {
+    font-size: 14px;
+  }
+
+  .banner-btn a {
+    background: #000;
+    color: #fff;
+  }
+
+  .banner-btn a img {
+    filter: invert(1);
+  }
+
+  .banner-btn a:hover {
+    background: #059e8f;
+    color: #fff;
+  }
+
+  .common-banner-title.nav-title {
+    margin-bottom: 15px;
+  }
+
+  .common-banner-title h1 {
+    column-gap: 15px;
+  }
+
+  .common-banner-title.nav-title h1 img {
+    width: 55px;
+  }
+
+  .common-banner-title h1 span {
+    font-size: 20px;
+  }
+
+  .banner-nav-tab {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .tab-content-heading {
+    margin-bottom: 15px;
+  }
+
+  .tab-content-heading h2 {
+    font-size: 20px;
+  }
+
+  .tab-content-description {
+    margin-bottom: 15px;
+  }
+
+  .tab-content-description p {
+    font-size: 14px;
+  }
+
+  .banner-nav-tab .nav-tabs {
+    width: max-content;
+    padding: 12px 0;
+  }
+
+  .banner-tab-area {
+    background: linear-gradient(180deg, #d6f1ee 7.5%, #ffffff 7.5%);
+    padding: 25px 0;
+  }
+
+  .banner-video-wrap {
+    margin-bottom: 24px;
+    border-radius: 15px;
+    height: 185px;
+  }
+
+  .video-wrap a img {
+    width: 40px;
+  }
+
+  .banner-sticky-wrap {
+    box-shadow: none;
+    border-radius: 0;
+    border-top: 0;
+    padding: 0;
+  }
+
+  .sticky-title h3 {
+    font-size: 20px;
+  }
+
+  /* consultancy css  */
+
+  .consultancy-slider-area {
+    padding: 40px 0;
+    margin-top: -180px;
+  }
+
+  .swiper-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .consultancy-slide-active .swiper-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .consultancy-slide-active .swiper-slide {
+    border-radius: 8px;
+    padding: 8px;
+  }
+
+  .consultancy-slide-title h2 {
+    font-size: 16px;
+  }
+
+  .consultancy-slide-description {
+    margin-bottom: 12px;
+  }
+
+  .consultancy-slide-description p {
+    font-size: 8px;
+  }
+
+  .consultancy-slide-btn a {
+    column-gap: 5px;
+    border-radius: 100px;
+    width: 80px;
+    height: 20px;
+  }
+
+  .consultancy-slide-btn a span {
+    font-size: 8px;
+  }
+
+  .consultancy-slide-btn a img {
+    width: 10px;
+  }
+
+  .consultancy-slide-button .btn-prev svg,
+  .consultancy-slide-button .btn-next svg {
+    transform: scale(0.7);
+  }
+
+  /* work css  */
+
+  .work-area {
+    padding: 50px 0 66px;
+  }
+
+  .work-title {
+    margin: 25px;
+  }
+
+  .work-title h2 {
+    font-size: 30px;
+  }
+
+  /* download css  */
+
+  .download-area {
+    border-radius: 50px 50px 0 0;
+    overflow-x: hidden;
+  }
+
+  .download-wrap {
+    margin-top: 70px;
+  }
+
+  .download-title h2 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .download-description {
+    margin-bottom: 55px;
+  }
+
+  .download-description p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .download-link {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* client review css  */
+
+  .client-review-area {
+    padding: 40px 0;
+    background: #141414;
+  }
+
+  .client-review-title {
+    margin-bottom: 40px;
+  }
+
+  .client-review-title h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .client-review-wrap {
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px 20px;
+  }
+
+  .client-review-items {
+    column-gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .client-review-items .item-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .client-review-items .item-content h6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: capitalize;
+  }
+
+  .rating-stars {
+    line-height: 1;
+  }
+  .rating-stars img {
+    width: 12px;
+  }
+
+  .client-comment p {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .client-review-button .btn-prev,
+  .client-review-button .btn-next {
+    width: 30px;
+    height: 30px;
+  }
+
+  .client-review-button .btn-prev {
+    left: -15px;
+  }
+  .client-review-button .btn-next {
+    right: -15px;
+  }
+
+  .client-review-button.mobile img {
+    width: 12px;
+  }
+
+  /* sub pages css  */
+
+  .faq-wrap .accordion-button {
+    font-size: 18px;
+  }
+
+  .require-documents-title {
+    margin-bottom: 25px;
+  }
+
+  .require-documents-title h3 {
+    font-size: 20px;
+  }
+
+  .require-documents-box ul li {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .choose-qanun-box {
+    padding: 42px 15px;
+    min-height: 300px;
+  }
+
+  .choose-qanun-box ul li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    align-items: start;
+    line-height: 25px;
+  }
+
+  .choose-qanun-box ul li img {
+    margin-top: 2px;
+  }
+
+  .client-review-area.light-version .client-review-title h2 {
+    font-size: 25px;
+  }
+
+  /* hiring page css  */
+
+  .hiring-img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 376px;
+  }
+
+  .hiring-title {
+    margin-top: -110px;
+  }
+
+  .hiring-title h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+
+  .hiring-btn a {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 60px;
+  }
+
+  /* footer css  */
+
+  .footer-area {
+    padding: 80px 0 40px;
+  }
+
+  .footer-widget {
+    margin-bottom: 24px;
+  }
+
+  .footer-widget p,
+  .footer-widget a {
+    font-size: 16px;
+    font-weight: 400;
+    align-items: start;
+    color: #5e5e5e;
+  }
+
+  .footer-social ul li {
+    margin-right: 10px;
+  }
+
+  .footer-social ul li a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+  }
+
+  .footer-social ul li a img {
+    transform: scale(0.65);
+  }
+
+  .footer-bottom-wrap ul li {
+    margin-bottom: 24px;
+  }
+
+  .footer-bottom-wrap ul li a {
+    font-size: 18px;
+    color: #363636;
+  }
+
+  .footer-bottom-wrap {
+    font-size: 16px;
+    color: #707070;
+  }
+
+  /* seach component css */
+}

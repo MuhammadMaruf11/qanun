@@ -1,0 +1,482 @@
+/* hero css start   */
+.banner-area {
+  background: linear-gradient(125deg, #2cb48b 0%, #058eb2 100%);
+  padding: 120px 0 100px;
+}
+
+.banner-title {
+  margin-bottom: 100px;
+}
+
+.banner-title h1 {
+  font-size: 80px;
+  line-height: 100px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.banner-items-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+  padding: 32px;
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 24px;
+  transition-duration: 0.1s;
+}
+
+.banner-items-wrap:hover {
+  background: #acfef5;
+}
+
+.banner-item-img {
+  width: 70px;
+}
+
+.banner-btn a {
+  background: #9efff5;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  padding: 20px 40px;
+  margin-top: 20px;
+  color: #020202;
+}
+
+.banner-btn a span {
+  line-height: 15px;
+  font-weight: 500;
+}
+
+.banner-btn a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.banner-btn a:hover img {
+  filter: invert(1);
+  transform: translateX(10px);
+}
+
+/* hero css end */
+
+/* consultancy slider css start  */
+
+.consultancy-slider-area {
+  padding: 0 0 100px;
+  margin-top: -100px;
+}
+
+.consultancy-slide-active .swiper-slide {
+  border-radius: 30px;
+  padding: 28px;
+}
+
+.consultancy-slide-active .swiper-slide.skyblue {
+  background: #caf6f4;
+}
+
+.consultancy-slide-active .swiper-slide.brown {
+  background: #e0f6ff;
+}
+
+.consultancy-slide-active .swiper-slide.purple {
+  background: #ceeff5;
+}
+
+.consultancy-slide-title {
+  margin-bottom: 24;
+}
+
+.consultancy-slide-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+}
+
+.consultancy-slide-description {
+  margin-bottom: 50px;
+}
+
+.consultancy-slide-description p {
+  font-size: 20px;
+  color: #000;
+}
+
+.consultancy-slide-btn a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  background: #000;
+  border-radius: 100px;
+  width: 222px;
+  height: 55px;
+}
+
+.consultancy-slide-btn a:hover img {
+  transform: translateX(10px);
+}
+
+.consultancy-slide-btn a span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.consultancy-slide-btn a img {
+  filter: invert(1);
+}
+
+.consultancy-slide-button {
+  display: flex;
+  justify-content: center;
+  column-gap: 48px;
+  margin-top: 25px;
+}
+
+.consultancy-slide-button svg:hover path {
+  fill: #009f9f;
+}
+
+.consultancy-slide-button .btn-prev svg:hover {
+  transform: translateX(-5px) scale(1.2);
+}
+
+.consultancy-slide-button .btn-next svg:hover {
+  transform: translateX(5px) scale(1.2);
+}
+
+/* consultancy slider css end */
+
+/* work css start  */
+
+.work-area {
+  position: relative;
+  padding: 450px 0 350px;
+}
+
+.work-bg {
+  position: relative;
+  max-width: 1220px;
+  margin: auto;
+}
+
+.work-left,
+.work-middle,
+.work-right,
+.work-books,
+.work-paper,
+.work-laptop {
+  position: absolute;
+}
+
+.work-left {
+  left: 158px;
+  bottom: -15px;
+  z-index: 1;
+}
+
+.work-books {
+  left: 172px;
+  bottom: -35px;
+  z-index: 2;
+}
+
+.work-middle {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
+
+.work-paper {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -75px;
+}
+
+.work-right {
+  right: 72px;
+  bottom: 0;
+}
+
+.work-laptop {
+  right: 150px;
+  bottom: -35px;
+}
+
+.work-title {
+  margin-bottom: 75px;
+  margin-top: 145px;
+}
+
+.work-title h2 {
+  font-size: 80px;
+  color: #020202;
+  font-weight: 400;
+}
+
+.work-area .nav-tabs {
+  justify-content: center;
+  box-shadow: 0 0 50px #4e4e4e1a;
+  margin-bottom: 145px;
+}
+
+.work-area .nav-tabs .nav-link {
+  font-size: 30px;
+  color: #020202;
+  border: 0;
+  outline: 0;
+  width: 323px;
+  height: 80px;
+  border-radius: 0;
+}
+
+.work-area .nav-tabs .nav-link.active {
+  background: #282828;
+  color: #fff;
+}
+
+.work-content-heading {
+  margin-bottom: 40px;
+}
+
+.work-content-heading h3 {
+  color: #020202;
+  font-size: 50px;
+}
+
+.work-content-description p {
+  font-size: 25px;
+  color: #020202;
+}
+
+.work-img-wrap {
+  text-align: right;
+}
+
+/* work css end */
+
+/* consultancy css start  */
+
+.consultancy-area {
+  padding: 250px 0;
+}
+
+.consultancy-area .container {
+  background: #3a94d6;
+  padding: 120px 0;
+  border-radius: 50px;
+  position: relative;
+  height: 546px;
+}
+
+.consultancy-img {
+  position: absolute;
+  top: -15px;
+  left: -40px;
+}
+
+.consultancy-title {
+  margin-bottom: 10px;
+}
+
+.consultancy-title h2 {
+  font-size: 80px;
+  color: #fff;
+}
+
+.consultancy-description {
+  margin-bottom: 30px;
+}
+.consultancy-description p {
+  font-size: 40px;
+  color: #fff;
+}
+
+.consultancy-btn a {
+  padding: 27px 60px;
+  background: #fff;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 6px;
+  justify-content: center;
+  color: #000;
+}
+
+.consultancy-btn a span {
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+.consultancy-btn a img {
+  width: 24px;
+  height: 24px;
+}
+
+.consultancy-btn a:hover {
+  color: #fff;
+  background: #000;
+}
+
+.consultancy-btn a:hover img {
+  filter: invert(1);
+  transform: translateX(10px);
+}
+
+/* consultancy css end */
+
+/* download css start  */
+
+.download-area {
+  padding-bottom: 90px;
+  background: #caf6f4;
+  border-radius: 150px 150px 0 0;
+  overflow: visible;
+}
+
+.download-wrap {
+  margin-top: 100px;
+}
+
+.download-title {
+  margin-bottom: 20px;
+}
+
+.download-title h2 {
+  font-size: 80px;
+  color: #000;
+  font-weight: 400;
+}
+
+.download-description {
+  margin-bottom: 75px;
+}
+
+.download-description p {
+  font-size: 30px;
+  color: #020202;
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.download-link a {
+  display: inline-block;
+  max-width: 230px;
+}
+
+.download-link a:hover img {
+  transform: scale(1.1);
+}
+
+.download-img {
+  margin-top: -140px;
+}
+
+/* download css end */
+
+/* client review css start  */
+
+.client-review-area {
+  padding: 120px 0 180px;
+  background: #262626;
+}
+
+.client-review-title {
+  margin-bottom: 90px;
+}
+
+.client-review-title h2 {
+  font-size: 80px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.client-review-active {
+  position: relative;
+}
+
+.client-review-wrap {
+  background: #fff;
+  border-radius: 30px;
+  padding: 35px 45px;
+}
+
+.client-review-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 25px;
+  margin-bottom: 30px;
+}
+
+.client-review-items .item-img {
+  width: 80px;
+  height: 80px;
+}
+
+.client-review-items .item-content h6 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.client-comment p {
+  font-size: 25px;
+  color: #676363;
+  margin-bottom: 40px;
+}
+
+.client-review-button .btn-prev,
+.client-review-button .btn-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #e3dcdc;
+  transition: all 0.3s linear;
+}
+
+.client-review-button .btn-prev:hover,
+.client-review-button .btn-next:hover {
+  background: #00936a;
+  border: 2px solid #00936a;
+}
+
+.client-review-button .btn-prev:hover img,
+.client-review-button .btn-next:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.client-review-button .btn-prev {
+  left: -50px;
+}
+
+.client-review-button .btn-next {
+  right: -50px;
+}
+
+/* client review css end */

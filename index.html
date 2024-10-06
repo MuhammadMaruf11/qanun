@@ -1,0 +1,1903 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Frontend" content="3rudit3" />
+    <meta
+      name="description"
+      content="Web site created using HTML, CSS, JavaScript, Bootstrap, jQuery"
+    />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/icons/favicon.svg"
+    />
+    <!-- all css link  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/swiper.min.css" />
+    <link rel="stylesheet" href="./assets/css/meanmenu.min.css" />
+    <link rel="stylesheet" href="./assets/css/aos.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <!-- document title  -->
+    <title>QANUN</title>
+  </head>
+  <body>
+    <!-- Loader HTML -->
+    <div id="loader" class="loader">
+      <div class="spinner">
+        <img src="./assets/img/logo/loader.png" alt="Loader" />
+      </div>
+    </div>
+
+    <div id="content">
+      <!-- header start  -->
+      <header class="header-area">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-3">
+              <div class="header-logo">
+                <a href="./index.html">
+                  <img
+                    src="./assets/img/logo/header_logo.svg"
+                    alt="header_logo"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block">
+              <div class="menu-dropdown">
+                <a href="javascript:void(0)" id="menuToggle">
+                  <span>All Services</span>
+                  <img src="./assets/img/icons/down-chevron.svg" alt="icon" />
+                </a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="header-right">
+                <div class="search-bar-wrapper">
+                  <a
+                    href="javascript:void(0)"
+                    class="search-wrap d-none d-lg-inline-block"
+                  >
+                    <form id="searchForm" action="#" class="search-form">
+                      <input
+                        type="text"
+                        placeholder="Search..."
+                        class="search-input d-none"
+                        id="searchInput"
+                      />
+                      <button
+                        type="submit"
+                        class="submit-search d-none"
+                        id="submitSearch"
+                      >
+                        <img src="./assets/img/icons/search.svg" alt="icon" />
+                      </button>
+                    </form>
+                    <div id="searchIcon">
+                      <img
+                        src="./assets/img/icons/search.svg"
+                        alt="icon"
+                        id="searchImage"
+                      />
+                      <img
+                        class="d-none"
+                        src="./assets/img/icons/times.svg"
+                        alt="icon"
+                        id="closeImage"
+                      />
+                    </div>
+                  </a>
+                </div>
+                <a
+                  href="./track-service.html"
+                  class="header-btn d-none d-lg-flex btn-1"
+                >
+                  <img src="./assets/img/icons/pointer-track.svg" alt="icon" />
+                  <span> Track Service</span>
+                </a>
+                <a href="./sign-in.html" class="header-btn btn-2">
+                  <span>Sign In</span>
+                </a>
+                <a href="javascript:void(0)" class="menu-btn btn-3 d-lg-none">
+                  <img src="./assets/img/icons/bars.svg" alt="icon" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="header-mega-menu">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mega-menu-wrap">
+                <ul>
+                  <li>
+                    <a href="./start-business.html">
+                      <img src="./assets/img/icons/banner-1.svg" alt="icon" />
+                      <span>Start Business </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-2.svg" alt="icon" />
+                      <span>Change in Business </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-3.svg" alt="icon" />
+                      <span>Drafting</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-4.svg" alt="icon" />
+                      <span>Legal Issues</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-5.svg" alt="icon" />
+                      <span>Registrations</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-6.svg" alt="icon" />
+                      <span>Other Services </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-7.svg" alt="icon" />
+                      <span>Filings & more</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/banner-8.svg" alt="icon" />
+                      <span>Utilities</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- header end -->
+      <main>
+        <!-- banner section start  -->
+
+        <section class="banner-area banner-clip" style="padding-bottom: 200px">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="banner-title" data-aos="fade-up">
+                  <h1>One stop legal solution</h1>
+                </div>
+              </div>
+            </div>
+            <div class="banner-services-items">
+              <div class="row">
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="./start-business.html"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_01.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Start Business</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="#"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_02.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Change in Business</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="#"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_03.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Registrations</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="#"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_04.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Filings & more</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="#"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="500"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_05.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Drafting</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="#"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="600"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_06.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Legal Issues</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="#"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="700"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_07.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Other Services</h5>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-6">
+                  <a
+                    href="#"
+                    class="banner-items-wrap"
+                    data-aos="fade-up"
+                    data-aos-delay="800"
+                  >
+                    <div class="banner-item-img">
+                      <img src="./assets/img/icons/icon_08.png" alt="icon" />
+                    </div>
+                    <div class="banner-item-text">
+                      <h5>Utilities</h5>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="banner-btn" data-aos="fade-up" data-aos-delay="900">
+                  <a href="./all-services.html">
+                    <span>MORE SERVICE</span>
+                    <img
+                      src="./assets/img/icons/double-right-chevron.svg"
+                      alt="icon"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- banner section end -->
+
+        <!-- consultancy  section start -->
+
+        <section class="consultancy-slider-area">
+          <div class="consultancy-slide-active">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide skyblue">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="consultancy-slider-img">
+                        <img src="./assets/img/bg/image.png" alt="slider" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="consultancy-slider-content">
+                        <div class="consultancy-slide-title">
+                          <h2>Phone Consultancy</h2>
+                        </div>
+                        <div class="consultancy-slide-description">
+                          <p>get legal advice from expert lawyer</p>
+                        </div>
+                        <div class="consultancy-slide-btn">
+                          <a href="./select-consultant.html">
+                            <span>Book Now</span>
+                            <img
+                              src="./assets/img/icons/right-arrow.svg"
+                              alt="icon"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide brown">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="consultancy-slider-img">
+                        <img src="./assets/img/bg/image-1.png" alt="slider" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="consultancy-slider-content">
+                        <div class="consultancy-slide-title">
+                          <h2>Debt & Invoice Collection</h2>
+                        </div>
+                        <div class="consultancy-slide-description">
+                          <p>We are here for your solution</p>
+                        </div>
+                        <div class="consultancy-slide-btn">
+                          <a href="./debt-invoice.html">
+                            <span>Book Now</span>
+                            <img
+                              src="./assets/img/icons/right-arrow.svg"
+                              alt="icon"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide purple">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="consultancy-slider-img">
+                        <img src="./assets/img/bg/image-2.png" alt="slider" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="consultancy-slider-content">
+                        <div class="consultancy-slide-title">
+                          <h2>Legal Subscription</h2>
+                        </div>
+                        <div class="consultancy-slide-description">
+                          <p>Let’s grow together</p>
+                        </div>
+                        <div class="consultancy-slide-btn">
+                          <a href="./legal-subscription.html">
+                            <span>Subscribe</span>
+                            <img
+                              src="./assets/img/icons/right-arrow.svg"
+                              alt="icon"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide skyblue">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="consultancy-slider-img">
+                        <img src="./assets/img/bg/image.png" alt="slider" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="consultancy-slider-content">
+                        <div class="consultancy-slide-title">
+                          <h2>Phone Consultancy</h2>
+                        </div>
+                        <div class="consultancy-slide-description">
+                          <p>get legal advice from expert lawyer</p>
+                        </div>
+                        <div class="consultancy-slide-btn">
+                          <a href="./select-consultant.html">
+                            <span>Book Now</span>
+                            <img
+                              src="./assets/img/icons/right-arrow.svg"
+                              alt="icon"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide brown">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="consultancy-slider-img">
+                        <img src="./assets/img/bg/image-1.png" alt="slider" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="consultancy-slider-content">
+                        <div class="consultancy-slide-title">
+                          <h2>Debt & Invoice Collection</h2>
+                        </div>
+                        <div class="consultancy-slide-description">
+                          <p>We are here for your solution</p>
+                        </div>
+                        <div class="consultancy-slide-btn">
+                          <a href="./debt-invoice.html">
+                            <span>Book Now</span>
+                            <img
+                              src="./assets/img/icons/right-arrow.svg"
+                              alt="icon"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide purple">
+                  <div class="row align-items-center">
+                    <div class="col-6">
+                      <div class="consultancy-slider-img">
+                        <img src="./assets/img/bg/image-2.png" alt="slider" />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="consultancy-slider-content">
+                        <div class="consultancy-slide-title">
+                          <h2>Legal Subscription</h2>
+                        </div>
+                        <div class="consultancy-slide-description">
+                          <p>Let’s grow together</p>
+                        </div>
+                        <div class="consultancy-slide-btn">
+                          <a href="./legal-subscription.html">
+                            <span>Subscribe</span>
+                            <img
+                              src="./assets/img/icons/right-arrow.svg"
+                              alt="icon"
+                            />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="consultancy-slide-button">
+              <div class="btn-prev">
+                <svg
+                  width="32"
+                  height="24"
+                  viewBox="0 0 32 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.359 23.6399L13.9226 22.0509L4.89006 13.0184H31.5625V10.8091H4.89006L13.9226 1.77651L12.359 0.1875L0.632812 11.9137L12.359 23.6399Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+              <div class="btn-next">
+                <svg
+                  width="32"
+                  height="24"
+                  viewBox="0 0 32 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M19.6019 23.6399L18.0383 22.0509L27.0709 13.0184H0.398438V10.8091H27.0709L18.0383 1.77651L19.6019 0.1875L31.3281 11.9137L19.6019 23.6399Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- consultancy  section end -->
+
+        <!-- work section start -->
+
+        <section class="work-area">
+          <div class="container">
+            <div class="work-bg-img">
+              <div class="d-md-none">
+                <img
+                  src="./assets/img/bg/work-bg.png"
+                  alt="work_bg"
+                  data-aos="zoom-in"
+                />
+              </div>
+              <div class="work-bg d-md-block d-none">
+                <div class="work-left">
+                  <img
+                    src="./assets/img/bg/work-left.svg"
+                    alt="work"
+                    data-aos="fade-right"
+                    data-aos-delay="1000"
+                    data-aos-duration="1500"
+                  />
+                </div>
+                <div class="work-middle">
+                  <img
+                    src="./assets/img/bg/work-middle.svg"
+                    alt="work"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="2000"
+                  />
+                </div>
+                <div class="work-right">
+                  <img
+                    src="./assets/img/bg/work-right.svg"
+                    alt="work"
+                    data-aos="fade-left"
+                    data-aos-delay="1000"
+                    data-aos-duration="1500"
+                  />
+                </div>
+                <div class="work-books">
+                  <img
+                    src="./assets/img/bg/work-books.svg"
+                    alt="work"
+                    data-aos="fade-up-right"
+                    data-aos-delay="200"
+                  />
+                </div>
+                <div class="work-paper">
+                  <img
+                    src="./assets/img/bg/work-paper.svg"
+                    alt="work"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  />
+                </div>
+                <div class="work-laptop">
+                  <img
+                    src="./assets/img/bg/work-laptop.svg"
+                    alt="work"
+                    data-aos="fade-up-left"
+                    data-aos-delay="600"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+                <div class="work-title" data-aos="fade-up">
+                  <h2>How we work?</h2>
+                </div>
+              </div>
+            </div>
+            <div class="faq-wrap d-lg-none">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      1. Your Order
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      the basis of your query, our expert of required domain
+                      inspects about the query and information provided by you.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      2. Inspection
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      the basis of your query, our expert of required domain
+                      inspects about the query and information provided by you.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      3. Work & Review
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      the basis of your query, our expert of required domain
+                      inspects about the query and information provided by you.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseFour"
+                    >
+                      4. Job Complet
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      the basis of your query, our expert of required domain
+                      inspects about the query and information provided by you.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row d-none d-lg-flex">
+              <div class="col-12">
+                <ol class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="home-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#home"
+                      type="button"
+                      role="tab"
+                      aria-controls="home"
+                      aria-selected="true"
+                    >
+                      1. Your Order
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="profile-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="profile"
+                      aria-selected="false"
+                    >
+                      2. Inspection
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="contact-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#contact"
+                      type="button"
+                      role="tab"
+                      aria-controls="contact"
+                      aria-selected="false"
+                    >
+                      3. Work & Review
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="job-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#job"
+                      type="button"
+                      role="tab"
+                      aria-controls="job"
+                      aria-selected="false"
+                    >
+                      4. Job Complete
+                    </button>
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <div class="tab-content d-none d-lg-block" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="home"
+                role="tabpanel"
+                aria-labelledby="home-tab"
+              >
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div
+                      class="work-content-wrap"
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                    >
+                      <div class="work-content-heading">
+                        <h3>Your Order</h3>
+                      </div>
+                      <div class="work-content-description">
+                        <p>
+                          On the basis of your query, our expert of required
+                          domain inspects about the query and information
+                          provided by you.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div
+                      class="work-img-wrap"
+                      data-aos="fade-left"
+                      data-aos-delay="100"
+                    >
+                      <img
+                        src="./assets/img/works/img-1.png"
+                        alt="work_inner_img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="profile"
+                role="tabpanel"
+                aria-labelledby="profile-tab"
+              >
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div
+                      class="work-content-wrap"
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                    >
+                      <div class="work-content-heading">
+                        <h3>Inspection</h3>
+                      </div>
+                      <div class="work-content-description">
+                        <p>
+                          On the basis of your query, our expert of required
+                          domain inspects about the query and information
+                          provided by you.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div
+                      class="work-img-wrap"
+                      data-aos="fade-left"
+                      data-aos-delay="100"
+                    >
+                      <img
+                        src="./assets/img/works/img-2.png"
+                        alt="work_inner_img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="contact"
+                role="tabpanel"
+                aria-labelledby="contact-tab"
+              >
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div
+                      class="work-content-wrap"
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                    >
+                      <div class="work-content-heading">
+                        <h3>Work & Review</h3>
+                      </div>
+                      <div class="work-content-description">
+                        <p>
+                          On the basis of your query, our expert of required
+                          domain inspects about the query and information
+                          provided by you.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div
+                      class="work-img-wrap"
+                      data-aos="fade-left"
+                      data-aos-delay="100"
+                    >
+                      <img
+                        src="./assets/img/works/img-3.png"
+                        alt="work_inner_img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="job"
+                role="tabpanel"
+                aria-labelledby="job-tab"
+              >
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div
+                      class="work-content-wrap"
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                    >
+                      <div class="work-content-heading">
+                        <h3>Job Complete</h3>
+                      </div>
+                      <div class="work-content-description">
+                        <p>
+                          On the basis of your query, our expert of required
+                          domain inspects about the query and information
+                          provided by you.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div
+                      class="work-img-wrap"
+                      data-aos="fade-left"
+                      data-aos-delay="100"
+                    >
+                      <img
+                        src="./assets/img/works/img-4.png"
+                        alt="work_inner_img"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- work section end -->
+
+        <!-- consultancy section start  -->
+
+        <!-- <section class="consultancy-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div
+                  class="consultancy-img"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                >
+                  <img src="./assets/img/bg/consultancy.svg" alt="bg" />
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="consultancy-wrap">
+                  <div
+                    class="consultancy-title"
+                    data-aos="fade-down"
+                    data-aos-duration="1000"
+                    data-aos-delay="100"
+                  >
+                    <h2>Get Consultancy</h2>
+                  </div>
+
+                  <div
+                    class="consultancy-description"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="200"
+                  >
+                    <p>How we can help you?</p>
+                  </div>
+
+                  <div
+                    class="consultancy-btn"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
+                    <a href="#">
+                      <span>Book Now</span>
+                      <img
+                        src="./assets/img/icons/right-arrow.svg"
+                        alt="icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+
+        <!-- consultancy section end -->
+
+        <!-- download section start -->
+
+        <section class="download-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-7 col-lg-6">
+                <div class="download-wrap">
+                  <div
+                    class="download-title"
+                    data-aos="fade-right"
+                    data-aos-duration="1200"
+                  >
+                    <h2>Download the app</h2>
+                  </div>
+
+                  <div
+                    class="download-description"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    data-aos-delay="200"
+                  >
+                    <p>Manage all your legal works in one place!</p>
+                  </div>
+
+                  <div class="download-link">
+                    <a
+                      href="#"
+                      data-aos="fade-up-right"
+                      data-aos-duration="800"
+                      data-aos-delay="400"
+                    >
+                      <img
+                        src="./assets/img/icons/google-play.png"
+                        alt="brand_logo"
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      data-aos="fade-up-left"
+                      data-aos-duration="800"
+                      data-aos-delay="400"
+                    >
+                      <img
+                        src="./assets/img/icons/app-strore.png"
+                        alt="brand_logo"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-5 col-lg-6 d-lg-block d-none">
+                <div
+                  class="download-img"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                  data-aos-delay="600"
+                >
+                  <img src="./assets/img/bg/mobile.png" alt="bg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- download section end -->
+
+        <!-- client review section start -->
+
+        <section class="client-review-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div
+                  class="client-review-title"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <h2>Client Review</h2>
+                </div>
+              </div>
+            </div>
+            <div class="client-review-active d-lg-block d-none">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="client-review-button">
+                <div class="btn-prev">
+                  <img
+                    loading="lazy"
+                    src="./assets/img/icons/left-arrow-gray.svg"
+                    alt="icon"
+                  />
+                </div>
+                <div class="btn-next">
+                  <img
+                    loading="lazy"
+                    src="./assets/img/icons/right-arrow-gray.svg"
+                    alt="icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="client-review-active mobile d-lg-none">
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="client-review-wrap">
+                          <div
+                            class="client-review-items"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                          >
+                            <!-- Image Section -->
+                            <div
+                              class="item-img"
+                              data-aos="zoom-in"
+                              data-aos-duration="800"
+                              data-aos-delay="200"
+                            >
+                              <img
+                                src="./assets/img/profile/img-1.svg"
+                                alt="profile"
+                              />
+                            </div>
+
+                            <!-- Content Section -->
+                            <div class="item-content">
+                              <h6
+                                data-aos="fade-left"
+                                data-aos-duration="1000"
+                                data-aos-delay="400"
+                              >
+                                Demo Name
+                              </h6>
+
+                              <!-- Rating Stars -->
+                              <div
+                                class="rating-stars"
+                                data-aos="fade-right"
+                                data-aos-duration="800"
+                                data-aos-delay="600"
+                              >
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                                <img
+                                  src="./assets/img/icons/star.svg"
+                                  alt="icon"
+                                />
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Client Comment -->
+                          <div
+                            class="client-comment"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="800"
+                          >
+                            <p>
+                              you'll often see a brand display testimonials on
+                              their website, a customer testimonial may be less
+                              formal, such as a customer review on a third-party
+                              website.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="client-review-button mobile">
+                <div class="btn-prev">
+                  <img
+                    loading="lazy"
+                    src="./assets/img/icons/left-arrow-gray.svg"
+                    alt="icon"
+                  />
+                </div>
+                <div class="btn-next">
+                  <img
+                    loading="lazy"
+                    src="./assets/img/icons/right-arrow-gray.svg"
+                    alt="icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- client review section end -->
+      </main>
+
+      <!-- footer start  -->
+      <footer class="footer-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-lg-6"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <div class="footer-widget">
+                <ul>
+                  <li>
+                    <p>
+                      <img
+                        src="./assets/img/icons/pointer-location.svg"
+                        alt="icon"
+                      />
+                      <span>
+                        Holding: Ka 61, Nadda Gulshan, Dhaka 1212 Bangladesh
+                      </span>
+                    </p>
+                  </li>
+                  <li>
+                    <a href="mailto:info@qanun.com">
+                      <img src="./assets/img/icons/mail.svg" alt="icon" />
+                      <span>info@qanun.com</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="col-lg-6 text-lg-end"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <div class="footer-social">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/facebook.svg" alt="icon" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/twitter.svg" alt="icon" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/linkedin.svg" alt="icon" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="./assets/img/icons/instagram.svg" alt="icon" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <div class="footer-bottom-wrap">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="./assets/img/icons/right-chevron.svg"
+                        alt="icon"
+                      />
+                      <span>Privacy Policy</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="./assets/img/icons/right-chevron.svg"
+                        alt="icon"
+                      />
+                      <span>Legal Info</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img
+                        src="./assets/img/icons/right-chevron.svg"
+                        alt="icon"
+                      />
+                      <span>Terms & Conditions</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-4 text-lg-end">
+              <div class="footer-bottom-wrap">
+                <p>&copy; 2022, Qanun All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- footer end  -->
+
+      <!-- scroll to top  -->
+      <div id="scrollUp">
+        <img src="./assets/img/icons/up-arrow.svg" alt="icon" />
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="./assets/js/swiper.min.js"></script>
+    <script src="./assets/js/consultancy-slider-active.js"></script>
+    <script src="./assets/js/client-review-active.js"></script>
+    <script src="./assets/js/meanmenu.min.js"></script>
+    <script src="./assets/js/aos.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
