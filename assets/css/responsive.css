@@ -35,41 +35,70 @@
 
   /* banner css  */
 
-  /* consultancy css  */
-
-  .consultancy-slide-active .swiper-slide {
-    border-radius: 20px;
-    padding: 15px;
+  .banner-area {
+    padding: 80px 0 60px;
   }
 
-  .consultancy-slide-title h2 {
+  .banner-title {
+    margin-bottom: 60px;
+  }
+
+  .banner-title h1 {
+    font-size: 65px;
+  }
+
+  .banner-items-wrap {
+    height: 375px;
+  }
+
+  .banner-items-wrap .item-text h2 {
     font-size: 28px;
   }
 
-  .consultancy-slide-description {
-    margin-bottom: 20px;
+  .banner-items-wrap .item-text p {
+    font-size: 16px;
   }
 
-  .consultancy-slide-description p {
-    font-size: 14px;
+  /* all services css  */
+
+  .faq-wrap.all-services .accordion-item {
+    padding: 15px;
+    border-radius: 12px;
   }
 
-  .consultancy-slide-btn a {
-    column-gap: 10px;
-    border-radius: 100px;
-    width: 150px;
-    height: 40px;
+  .banner-item-text h5 {
+    font-size: 20px;
   }
 
-  .consultancy-slide-btn a span {
-    font-size: 14px;
+  .banner-item-img {
+    width: 65px;
   }
 
-  .consultancy-slide-btn a img {
-    width: 18px;
+  .faq-wrap.all-services .accordion-body ul li {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  /* join with us css  */
+
+  .join-us-wrap {
+    max-width: 430px;
+    padding: 135px 80px;
+  }
+
+  .join-us-title h2 {
+    font-size: 50px;
+  }
+
+  .join-us-description p {
+    font-size: 24px;
   }
 
   /* work css  */
+
+  .work-area {
+    padding: 50px 0 250px;
+  }
 
   .work-left {
     left: 0px;
@@ -152,93 +181,67 @@
   }
 
   /* banner css  */
-  .banner-area.banner-clip {
-    background: url("../img/bg/banner-bg-large.png");
-    background-repeat: no-repeat;
-    padding: 20px 0;
-    background-size: contain;
-  }
 
-  .banner-services-items {
-    background: #fff;
-    border-radius: 50px;
-    overflow: hidden;
-    border: 1px solid #efefef;
-  }
-
-  .banner-services-items .row > * {
-    padding: 0;
-  }
-
-  .banner-items-wrap {
-    margin-bottom: 0;
-    border-radius: 0;
-    border: 1px solid #efefef;
-    padding: 50px 32px;
+  .banner-area {
+    padding: 24px 0 0;
   }
 
   .banner-title {
-    margin-bottom: 50px;
+    display: none;
   }
 
-  .banner-title h1 {
-    font-size: 60px;
-  }
-
-  .banner-btn a {
-    background: #000;
-    color: #fff;
-  }
-
-  .banner-btn a img {
-    filter: invert(1);
-  }
-
-  .banner-btn a:hover {
-    background: #059e8f;
-    color: #fff;
-  }
-
-  .common-banner-title.nav-title {
-    margin-bottom: 20px;
-  }
-
-  .banner-nav-tab {
-    width: 100%;
-    overflow-x: auto;
-  }
-
-  .banner-nav-tab .nav-tabs {
-    width: max-content;
-    padding: 12px 0;
-  }
-
-  .banner-tab-area {
-    background: linear-gradient(180deg, #d6f1ee 15%, #ffffff 15%);
-  }
-
-  .banner-video-wrap {
+  .banner-items-wrap {
+    height: 430px;
     margin-bottom: 24px;
   }
 
-  .banner-sticky-wrap {
-    box-shadow: none;
-    border-radius: 0;
-    padding: 0;
-    border-top: 0;
+  .banner-items-wrap .item-img {
+    max-height: 290px;
+    margin: 0 auto;
   }
 
-  /* consultancy css  */
+  .banner-items-wrap .item-text h2 {
+    font-size: 28px;
+  }
 
-  .swiper-container {
-    padding-left: 40px;
-    padding-right: 40px;
+  .banner-items-wrap .item-text p {
+    font-size: 16px;
+  }
+
+  /* all services css  */
+
+  .services-title h2 {
+    font-size: 65px;
+  }
+
+  .faq-wrap.all-services .accordion-item {
+    padding: 15px;
+    border-radius: 12px;
+  }
+
+  .banner-item-text h5 {
+    font-size: 20px;
+  }
+
+  .banner-item-img {
+    width: 65px;
+  }
+
+  .faq-wrap.all-services .accordion-body ul li {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  /* join with us css  */
+
+  .join-us-area {
+    display: none;
   }
 
   /* work css  */
 
   .work-area {
-    padding: 325px 0 100px;
+    padding: 50px 0 250px;
   }
 
   .work-bg img {
@@ -370,191 +373,104 @@
   }
 
   /* banner css  */
-  .banner-area.banner-clip {
-    background: url("../img/bg/banner-bg.png");
-    background-repeat: no-repeat;
-    padding: 15px 0;
-    background-size: contain;
+
+  .banner-area {
+    padding: 12px 0 16px;
   }
 
   .banner-area .container {
     max-width: 100%;
   }
 
-  .banner-services-items {
-    background: #fff;
-    border-radius: 25px;
-    overflow: hidden;
-    border: 1px solid #efefef;
+  .banner-area .row > *:nth-child(1),
+  .banner-area .row > *:nth-child(3) {
+    padding-left: 4px;
+    padding-right: 2px;
   }
-
-  .banner-services-items .row > * {
-    padding: 0;
-  }
-
-  .banner-items-wrap {
-    margin-bottom: 0;
-    border-radius: 0;
-    border: 1px solid #efefef;
-    padding: 15px;
+  .banner-area .row > *:nth-child(2),
+  .banner-area .row > *:nth-child(4) {
+    padding-left: 2px;
+    padding-right: 4px;
   }
 
   .banner-title {
-    margin-bottom: 20px;
+    display: none;
   }
 
-  .banner-title h1 {
-    font-size: 25px;
-    line-height: 1.2;
+  .banner-items-wrap {
+    height: 200px;
+    border-radius: 12px;
+    padding: 15px 9px 0;
+    margin-bottom: 4px;
   }
 
-  .banner-item-img {
-    width: 55px;
+  .banner-items-wrap .item-img {
+    max-height: 140px;
+    margin: 0 auto;
   }
 
-  .banner-item-text h5 {
-    font-size: 14px;
-  }
-
-  .banner-btn a {
-    background: #000;
-    color: #fff;
-  }
-
-  .banner-btn a img {
-    filter: invert(1);
-  }
-
-  .banner-btn a:hover {
-    background: #059e8f;
-    color: #fff;
-  }
-
-  .common-banner-title.nav-title {
-    margin-bottom: 15px;
-  }
-
-  .common-banner-title h1 {
-    column-gap: 15px;
-  }
-
-  .common-banner-title.nav-title h1 img {
-    width: 55px;
-  }
-
-  .common-banner-title h1 span {
-    font-size: 20px;
-  }
-
-  .banner-nav-tab {
-    width: 100%;
-    overflow-x: auto;
-  }
-
-  .tab-content-heading {
-    margin-bottom: 15px;
-  }
-
-  .tab-content-heading h2 {
-    font-size: 20px;
-  }
-
-  .tab-content-description {
-    margin-bottom: 15px;
-  }
-
-  .tab-content-description p {
-    font-size: 14px;
-  }
-
-  .banner-nav-tab .nav-tabs {
-    width: max-content;
-    padding: 12px 0;
-  }
-
-  .banner-tab-area {
-    background: linear-gradient(180deg, #d6f1ee 7.5%, #ffffff 7.5%);
-    padding: 25px 0;
-  }
-
-  .banner-video-wrap {
-    margin-bottom: 24px;
-    border-radius: 15px;
-    height: 185px;
-  }
-
-  .video-wrap a img {
-    width: 40px;
-  }
-
-  .banner-sticky-wrap {
-    box-shadow: none;
-    border-radius: 0;
-    border-top: 0;
-    padding: 0;
-  }
-
-  .sticky-title h3 {
-    font-size: 20px;
-  }
-
-  /* consultancy css  */
-
-  .consultancy-slider-area {
-    padding: 40px 0;
-    margin-top: -180px;
-  }
-
-  .swiper-container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .consultancy-slide-active .swiper-container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .consultancy-slide-active .swiper-slide {
-    border-radius: 8px;
-    padding: 8px;
-  }
-
-  .consultancy-slide-title h2 {
+  .banner-items-wrap .item-text h2 {
     font-size: 16px;
   }
 
-  .consultancy-slide-description {
-    margin-bottom: 12px;
+  .banner-items-wrap .item-text p {
+    font-size: 10px;
   }
 
-  .consultancy-slide-description p {
-    font-size: 8px;
+  /* all services css  */
+
+  .all-services-area {
+    padding: 25px 0;
   }
 
-  .consultancy-slide-btn a {
-    column-gap: 5px;
-    border-radius: 100px;
-    width: 80px;
-    height: 20px;
+  .services-title {
+    margin-bottom: 35px;
   }
 
-  .consultancy-slide-btn a span {
-    font-size: 8px;
+  .services-title h2 {
+    font-size: 25px;
   }
 
-  .consultancy-slide-btn a img {
-    width: 10px;
+  .faq-wrap.all-services .accordion-item {
+    padding: 12px;
+    border-radius: 10px;
   }
 
-  .consultancy-slide-button .btn-prev svg,
-  .consultancy-slide-button .btn-next svg {
-    transform: scale(0.7);
+  .banner-item-text h5 {
+    font-size: 20px;
+  }
+
+  .banner-item-img {
+    width: 45px;
+  }
+
+  .faq-wrap.all-services .accordion-item .accordion-button {
+    gap: 15px;
+  }
+
+  .faq-wrap.all-services .accordion-body {
+    padding-top: 20px;
+  }
+
+  .faq-wrap.all-services .accordion-body ul {
+    padding-left: 82px;
+  }
+
+  .faq-wrap.all-services .accordion-body ul li {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  /* join with us css  */
+
+  .join-us-area {
+    display: none;
   }
 
   /* work css  */
 
   .work-area {
-    padding: 50px 0 66px;
+    padding: 50px 0 50px;
   }
 
   .work-title {

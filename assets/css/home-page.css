@@ -1,7 +1,7 @@
 /* hero css start   */
 .banner-area {
-  background: linear-gradient(125deg, #2cb48b 0%, #058eb2 100%);
-  padding: 120px 0 100px;
+  background: #ecfafe;
+  padding: 110px 0 80px;
 }
 
 .banner-title {
@@ -9,62 +9,155 @@
 }
 
 .banner-title h1 {
-  font-size: 80px;
+  font-size: 70px;
   line-height: 100px;
-  color: #fff;
-  text-transform: capitalize;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .banner-items-wrap {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  row-gap: 25px;
-  padding: 32px;
-  background: #fff;
-  border-radius: 20px;
-  margin-bottom: 24px;
-  transition-duration: 0.1s;
+  justify-content: space-between;
+  border-radius: 30px;
+  height: 538px;
+  padding: 30px 20px 0;
+  overflow: hidden;
 }
 
-.banner-items-wrap:hover {
-  background: #acfef5;
+.banner-items-wrap.first {
+  background: linear-gradient(135deg, #b8f5e7 0%, #04cfcf 100%);
 }
 
-.banner-item-img {
-  width: 70px;
+.banner-items-wrap.second {
+  background: linear-gradient(135deg, #62caf3 0%, #c4edfe 100%);
 }
 
-.banner-btn a {
-  background: #9efff5;
-  border-radius: 10px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 5px;
-  padding: 20px 40px;
-  margin-top: 20px;
-  color: #020202;
+.banner-items-wrap.third {
+  background: linear-gradient(135deg, #c2afec 0%, #eae0ff 100%);
 }
 
-.banner-btn a span {
-  line-height: 15px;
-  font-weight: 500;
+.banner-items-wrap.fourth {
+  background: linear-gradient(135deg, #000 0%, #000 100%);
 }
 
-.banner-btn a:hover {
-  background: #000;
+.banner-items-wrap.fourth .item-text h2 {
   color: #fff;
 }
 
-.banner-btn a:hover img {
-  filter: invert(1);
-  transform: translateX(10px);
+.banner-items-wrap.fourth .item-text p {
+  color: #fff;
+}
+
+.banner-items-wrap:hover {
+  background: linear-gradient(135deg, #fff 0%, #fff 100%);
+}
+
+.banner-items-wrap.fourth:hover .item-text h2,
+.banner-items-wrap.fourth:hover .item-text p {
+  color: #000;
+}
+
+.banner-items-wrap .item-img {
+  margin: 0 auto;
+  max-height: 365px;
+}
+
+.banner-items-wrap .item-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #000;
+}
+
+.banner-items-wrap .item-text p {
+  font-size: 20px;
+  color: #000;
 }
 
 /* hero css end */
+
+/* service css start  */
+
+.services-title {
+  margin-bottom: 50px;
+}
+
+.services-title h2 {
+  font-size: 70px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.banner-item-img {
+  width: 75px;
+}
+
+.banner-item-text h5 {
+  font-size: 25px;
+  color: #282828;
+}
+
+/* service css end */
+
+/* join us css start  */
+
+.join-us-area {
+  padding: 120px 0;
+}
+
+.join-us-area .container {
+  background: #030303;
+  border-radius: 50px;
+  height: 456px;
+}
+
+.join-us-wrap {
+  padding: 105px 80px;
+  max-width: 610px;
+}
+
+.join-us-title h2 {
+  font-size: 80px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.join-us-description {
+  margin-bottom: 24px;
+}
+
+.join-us-description p {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.join-us-btn a {
+  font-size: 20px;
+  font-weight: 500;
+  background: linear-gradient(90deg, #22cbbb 0%, #1488ad 100%);
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.join-us-btn a:hover {
+  background: linear-gradient(90deg, #fff 0%, #fff 100%);
+  color: #000;
+}
+
+.join-us-img {
+  text-align: right;
+  margin-top: -116px;
+  margin-right: 72px;
+}
+
+/* join us css end */
 
 /* consultancy slider css start  */
 
@@ -160,67 +253,18 @@
 
 .work-area {
   position: relative;
-  padding: 450px 0 350px;
-}
-
-.work-bg {
-  position: relative;
-  max-width: 1220px;
-  margin: auto;
-}
-
-.work-left,
-.work-middle,
-.work-right,
-.work-books,
-.work-paper,
-.work-laptop {
-  position: absolute;
-}
-
-.work-left {
-  left: 158px;
-  bottom: -15px;
-  z-index: 1;
-}
-
-.work-books {
-  left: 172px;
-  bottom: -35px;
-  z-index: 2;
-}
-
-.work-middle {
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -10px;
-}
-
-.work-paper {
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -75px;
-}
-
-.work-right {
-  right: 72px;
-  bottom: 0;
-}
-
-.work-laptop {
-  right: 150px;
-  bottom: -35px;
+  padding: 250px 0 350px;
 }
 
 .work-title {
   margin-bottom: 75px;
-  margin-top: 145px;
 }
 
 .work-title h2 {
-  font-size: 80px;
+  font-size: 70px;
   color: #020202;
-  font-weight: 400;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .work-area .nav-tabs {

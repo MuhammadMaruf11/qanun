@@ -881,27 +881,50 @@
 /* all services css start */
 
 .all-services-area {
-  padding: 120px 0;
+  padding: 40px 0;
 }
 
 .faq-wrap.all-services .accordion-item {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 24px;
   margin-bottom: 24px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .faq-wrap.all-services .accordion-item .accordion-button {
   padding: 0;
+  gap: 30px;
 }
 
 .faq-wrap.all-services .accordion-item * {
   border: 0 !important;
+  padding: 0;
 }
 
-.faq-wrap.all-services .accordion-body {
+.faq-wrap.all-services .accordion-body ul {
+  padding-left: 130px;
+  list-style: disclosure-closed;
+}
+
+.faq-wrap.all-services .accordion-body ul li {
   font-size: 20px;
-  padding-left: 90px;
+  color: #282828;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  margin-bottom: 17px;
+}
+
+.faq-wrap.all-services .accordion-body ul li a {
+  color: #282828;
+}
+
+.faq-wrap.all-services .accordion-body ul li:hover a {
+  color: #2cadc0;
+  text-decoration: underline;
+}
+
+.faq-wrap.all-services .accordion-body ul li:hover::marker {
+  color: #2cadc0;
 }
 
 /* all services css end */
