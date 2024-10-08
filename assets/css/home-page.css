@@ -23,6 +23,7 @@
   height: 538px;
   padding: 30px 20px 0;
   overflow: hidden;
+  box-shadow: 0 0 10px #00000010;
 }
 
 .banner-items-wrap.first {
@@ -30,11 +31,11 @@
 }
 
 .banner-items-wrap.second {
-  background: linear-gradient(135deg, #62caf3 0%, #c4edfe 100%);
+  background: linear-gradient(135deg, #c4edfe 0%, #62caf3 100%);
 }
 
 .banner-items-wrap.third {
-  background: linear-gradient(135deg, #c2afec 0%, #eae0ff 100%);
+  background: linear-gradient(135deg, #eae0ff 0%, #c2afec 100%);
 }
 
 .banner-items-wrap.fourth {
@@ -102,7 +103,7 @@
 /* join us css start  */
 
 .join-us-area {
-  padding: 120px 0;
+  padding: 200px 0 100px;
 }
 
 .join-us-area .container {
@@ -112,8 +113,7 @@
 }
 
 .join-us-wrap {
-  padding: 105px 80px;
-  max-width: 610px;
+  padding: 80px 0 0 80px;
 }
 
 .join-us-title h2 {
@@ -136,12 +136,10 @@
   font-size: 20px;
   font-weight: 500;
   background: linear-gradient(90deg, #22cbbb 0%, #1488ad 100%);
-  display: inline-block;
-  width: 100%;
-  height: 60px;
+  display: inline-flex;
+  padding: 20px 40px;
   border-radius: 10px;
   text-align: center;
-  line-height: 60px;
   color: #fff;
   text-transform: uppercase;
 }
@@ -253,7 +251,7 @@
 
 .work-area {
   position: relative;
-  padding: 250px 0 350px;
+  padding: 50px 0 350px;
 }
 
 .work-title {
@@ -262,7 +260,7 @@
 
 .work-title h2 {
   font-size: 70px;
-  color: #020202;
+  color: #000;
   font-weight: 500;
   text-transform: uppercase;
 }

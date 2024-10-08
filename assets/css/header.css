@@ -1,6 +1,6 @@
 /* Header Area */
 .header-area {
-  padding: 15px 0;
+  padding: 5px 0;
   transition: all 0.3s linear;
   position: sticky;
   width: 100%;
@@ -25,8 +25,13 @@
 }
 
 .menu-dropdown a span {
-  color: #0b7d72;
+  color: #282828;
   font-size: 20px;
+  font-weight: 500;
+}
+
+.menu-dropdown a:hover span {
+  color: #1488ad;
 }
 
 .menu-dropdown a.active img {
@@ -76,8 +81,12 @@
   border: 1px solid #059e8f;
 }
 
-.header-btn:hover img {
-  filter: invert(1);
+.header-btn svg path {
+  transition: all 0.3s linear;
+}
+
+.header-btn:hover svg path {
+  fill: #fff;
 }
 
 .search-input {
@@ -86,9 +95,9 @@
   top: 50%;
   transform: translateY(-50%);
   width: 450px;
-  padding: 10px 40px; /* Space for search icon */
+  padding: 10px 60px 10px 20px; /* Space for search icon */
   border-radius: 100px;
-  box-shadow: 0 0 20px #00000040 !important;
+  box-shadow: 0 0 20px #00000020 !important;
   border: 0;
   outline: none;
   transition: all 0.3s ease;
