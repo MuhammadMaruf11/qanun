@@ -35,16 +35,16 @@
 
 
 
-    /*------------------------------------
-              sideBarMenu - All Pages
-            --------------------------------------*/
+    // /*------------------------------------
+    //           sideBarMenu - All Pages
+    //         --------------------------------------*/
 
 
 
-    $("#menuToggle").on("click", function () {
-        $("#menuToggle").toggleClass("active");
-        $(".header-mega-menu").toggleClass("active");
-    });
+    // $("#menuToggle").on("click", function () {
+    //     $("#menuToggle").toggleClass("active");
+    //     $(".header-mega-menu").toggleClass("active");
+    // });
 
 
 
@@ -82,20 +82,6 @@
         once: true,
     });
 
-    /*------------------------------------
-             Marquee - index.html 
-           --------------------------------------*/
-
-    $(document).ready(function () {
-        $('.marquee-wrapper').hover(
-            function () {
-                $('.marquee-content').css('animation-play-state', 'paused');
-            },
-            function () {
-                $('.marquee-content').css('animation-play-state', 'running');
-            }
-        );
-    });
 
 
     /*------------------------------------

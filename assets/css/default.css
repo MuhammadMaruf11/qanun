@@ -289,7 +289,7 @@ label {
 }
 
 .text-theme {
-  color: #15885f;
+  color: #1488ad;
 }
 
 /* Others Common Css Here :) */
@@ -306,7 +306,7 @@ label {
   transition: 0.3s;
   cursor: pointer;
   border-radius: 50%;
-  border: 1px solid #009f90;
+  border: 1px solid #1488ad;
   z-index: 99999999;
 }
 
@@ -316,7 +316,7 @@ label {
 }
 
 #scrollUp:hover {
-  background: #009f90;
+  background: #1488ad;
 }
 
 #scrollUp:hover img {

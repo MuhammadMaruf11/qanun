@@ -39,15 +39,15 @@
 }
 
 .banner-items-wrap.fourth {
-  background: linear-gradient(135deg, #000 0%, #000 100%);
+  background: linear-gradient(135deg, #dfe2ff 0%, #b5baeb 100%);
 }
 
-.banner-items-wrap.fourth .item-text h2 {
-  color: #fff;
+.banner-items-wrap.fourth {
+  padding-right: 0;
 }
 
-.banner-items-wrap.fourth .item-text p {
-  color: #fff;
+.banner-items-wrap.fourth .item-img {
+  margin: 0 0 0 auto;
 }
 
 .banner-items-wrap:hover {

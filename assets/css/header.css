@@ -34,6 +34,10 @@
   color: #1488ad;
 }
 
+.menu-dropdown a:hover svg rect {
+  stroke: #1488ad;
+}
+
 .menu-dropdown a.active img {
   transform: rotate(180deg);
 }
