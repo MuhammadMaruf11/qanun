@@ -233,7 +233,7 @@
 .faq-wrap .accordion-button::before {
   position: absolute;
   content: url("../img/icons/minus.svg");
-  right: 0;
+  right: 24px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -407,8 +407,8 @@
 /* bookin page css start  */
 
 .booking-banner-area {
-  background: #f4f4f4;
-  padding: 35px 0;
+  background: #ecfafe;
+  padding: 35px 0 0;
 }
 
 .booking-banner-wrap {
@@ -468,6 +468,7 @@
   border: 0;
   box-shadow: none;
   color: #828282;
+  background: transparent;
 }
 
 .booking-nav-wrap .nav-item .nav-link.active {
@@ -484,6 +485,10 @@
   justify-content: center;
   align-items: center;
   color: #828282;
+}
+
+.booking-tab-area {
+  padding: 35px 0;
 }
 
 .booking-nav-wrap .nav-link.active span {
@@ -525,7 +530,7 @@
 }
 
 .booking-tab-btn button {
-  background: linear-gradient(#22cbbb, #1488ad);
+  background: linear-gradient(135deg, #22cbbb 0%, #1488ad 100%);
   width: 376px;
   height: 60px;
   border-radius: 10px;
@@ -613,6 +618,7 @@
 .consultant-banner-content .content-title h2 {
   color: #0b0b0b;
   text-transform: capitalize;
+  font-size: 35px;
 }
 
 .consultant-banner-content .content-description {
@@ -629,6 +635,10 @@
   align-items: center;
   column-gap: 24px;
   margin-bottom: 35px;
+}
+
+.content-price h3 {
+  font-size: 25px;
 }
 
 .consultant-banner-content .item-img {
@@ -814,16 +824,11 @@
 .legal-subscription-list ul li {
   font-size: 20px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   column-gap: 20px;
   margin-bottom: 45px;
   font-weight: 500;
 }
-
-/* .legal-subscription-list ul li:last-child {
-  margin-bottom: 0;
-} */
 
 /* legal subscription css end */
 
@@ -887,19 +892,25 @@
 
 .faq-wrap.all-services .accordion-item {
   border: 1px solid #ddd;
-  padding: 24px;
   margin-bottom: 24px;
   border-radius: 15px;
 }
 
+.faq-wrap.all-services .accordion-item .accordion-button,
+.faq-wrap.all-services .accordion-item .accordion-body {
+  padding: 24px;
+}
+
+.faq-wrap.all-services .accordion-item .accordion-body {
+  padding-top: 0;
+}
+
 .faq-wrap.all-services .accordion-item .accordion-button {
-  padding: 0;
   gap: 30px;
 }
 
 .faq-wrap.all-services .accordion-item * {
   border: 0 !important;
-  padding: 0;
 }
 
 .faq-wrap.all-services .accordion-body ul {

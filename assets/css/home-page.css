@@ -1,4 +1,5 @@
 /* hero css start   */
+.hero-area,
 .banner-area {
   background: #ecfafe;
   padding: 110px 0 80px;
@@ -9,10 +10,15 @@
 }
 
 .banner-title h1 {
-  font-size: 70px;
+  font-size: 80px;
   line-height: 100px;
   color: #000000;
   text-transform: uppercase;
+}
+
+.banner-title h2 {
+  font-size: 40px;
+  color: #000000;
 }
 
 .banner-items-wrap {
@@ -39,7 +45,7 @@
 }
 
 .banner-items-wrap.fourth {
-  background: linear-gradient(135deg, #dfe2ff 0%, #b5baeb 100%);
+  background: linear-gradient(135deg, #e1e4ff 0%, #858dd1 100%);
 }
 
 .banner-items-wrap.fourth {

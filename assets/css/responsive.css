@@ -9,6 +9,67 @@
   .submit-search {
     right: 38%;
   }
+
+  .banner-items-wrap {
+    display: flex;
+    height: 415px;
+  }
+
+  .banner-items-wrap .item-text h2 {
+    font-size: 32px;
+  }
+
+  .banner-items-wrap .item-text p {
+    font-size: 18px;
+  }
+
+  .join-us-wrap {
+    padding: 80px 0 0 50px;
+  }
+
+  .work-area .nav-tabs .nav-link {
+    font-size: 28px;
+    width: 278px;
+    height: 65px;
+  }
+
+  .download-title h2 {
+    font-size: 70px;
+    color: #000;
+    font-weight: 400;
+  }
+
+  /* consultant page css  */
+
+  .consultant-banner-content {
+    padding: 16px;
+  }
+
+  /* legal subscription css  */
+
+  .banner-area.legal-subscription {
+    padding: 75px 0 40px;
+    background: linear-gradient(180deg, #a3e2fb 53%, #edfaff 53%);
+  }
+
+  .legal-subscription-title {
+    margin-bottom: 70px;
+  }
+
+  .legal-subscription-title h1 {
+    font-size: 65px;
+  }
+
+  .legal-subscription-img {
+    position: absolute;
+    top: 53px;
+    right: 0;
+  }
+
+  .legal-subscription-img img {
+    width: 600px;
+    height: auto;
+  }
 }
 
 /* Mini laptop layout min 769px */
@@ -35,6 +96,7 @@
 
   /* banner css  */
 
+  .hero-area,
   .banner-area {
     padding: 80px 0 60px;
   }
@@ -48,22 +110,26 @@
   }
 
   .banner-items-wrap {
-    height: 375px;
+    height: 300px;
   }
 
   .banner-items-wrap .item-text h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .banner-items-wrap .item-text p {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   /* all services css  */
 
   .faq-wrap.all-services .accordion-item {
-    padding: 15px;
     border-radius: 12px;
+  }
+
+  .faq-wrap.all-services .accordion-item .accordion-button,
+  .faq-wrap.all-services .accordion-item .accordion-body {
+    padding: 15px;
   }
 
   .banner-item-text h5 {
@@ -83,7 +149,7 @@
 
   .join-us-wrap {
     max-width: 430px;
-    padding: 135px 80px;
+    padding: 135px 0 0 60px;
   }
 
   .join-us-title h2 {
@@ -171,6 +237,86 @@
     font-size: 28px;
     padding: 30px 90px;
   }
+
+  /* consultant page css */
+
+  .consultant-banner-content .content-title {
+    margin-bottom: 12px;
+  }
+
+  .consultant-banner-content .content-title h2 {
+    font-size: 26px;
+  }
+
+  .consultant-banner-content .content-description {
+    margin-bottom: 12px;
+  }
+
+  .consultant-banner-content .item-img {
+    width: 30px;
+  }
+
+  .consultant-banner-content .content-items,
+  .consultant-banner-content .content-price {
+    column-gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  /* legal subscription css  */
+
+  .banner-area.legal-subscription {
+    padding: 75px 0 40px;
+    background: linear-gradient(180deg, #a3e2fb 58%, #edfaff 58%);
+  }
+
+  .legal-subscription-title {
+    margin-bottom: 50px;
+    max-width: 500px;
+  }
+
+  .legal-subscription-title h1 {
+    font-size: 65px;
+  }
+
+  .legal-subscription-img {
+    position: absolute;
+    top: 55px;
+    right: 0;
+  }
+
+  .legal-subscription-img img {
+    width: 530px;
+    height: auto;
+  }
+
+  .legal-subscription-item {
+    padding: 12px;
+  }
+
+  .legal-subscription-item h4 {
+    font-size: 24px;
+  }
+
+  .legal-subscription-item .item-btn a {
+    font-size: 20px;
+    padding: 12px 0;
+    border-radius: 12px;
+  }
+
+  .legal-subscription-subtitle {
+    margin: 45px 0;
+  }
+
+  .legal-subscription-list ul li {
+    font-size: 16px;
+    column-gap: 8px;
+    margin-bottom: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .legal-subscription-list ul li img {
+    width: 20px;
+  }
 }
 
 /* Tablet Layout wide: 768px. */
@@ -182,6 +328,7 @@
 
   /* banner css  */
 
+  .hero-area,
   .banner-area {
     padding: 24px 0 0;
   }
@@ -215,8 +362,12 @@
   }
 
   .faq-wrap.all-services .accordion-item {
-    padding: 15px;
     border-radius: 12px;
+  }
+
+  .faq-wrap.all-services .accordion-item .accordion-button,
+  .faq-wrap.all-services .accordion-item .accordion-body {
+    padding: 15px;
   }
 
   .banner-item-text h5 {
@@ -332,6 +483,103 @@
     padding: 15px 50px;
   }
 
+  .banner-video-wrap {
+    margin-bottom: 24px;
+  }
+
+  .banner-sticky-wrap {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    border-top: 0;
+  }
+
+  /* consultant page css */
+
+  .consultant-banner-wrap {
+    margin-bottom: 24px;
+  }
+
+  .consultant-banner-content .content-title {
+    margin-bottom: 12px;
+  }
+
+  .consultant-banner-content .content-title h2 {
+    font-size: 26px;
+  }
+
+  .consultant-banner-content .content-description {
+    margin-bottom: 12px;
+  }
+
+  .consultant-banner-content .item-img {
+    width: 30px;
+  }
+
+  .consultant-banner-content .content-items,
+  .consultant-banner-content .content-price {
+    column-gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  /* legal subscription css  */
+
+  .banner-area.legal-subscription {
+    padding: 75px 0 40px;
+    background: linear-gradient(180deg, #a3e2fb 75%, #edfaff 75%);
+  }
+
+  .legal-subscription-title {
+    margin-bottom: 50px;
+  }
+
+  .legal-subscription-title h1 {
+    font-size: 65px;
+  }
+
+  .legal-subscription-img {
+    top: 200px;
+    right: 32px;
+  }
+
+  .legal-subscription-img img {
+    width: 700px;
+    height: auto;
+  }
+
+  .legal-subscription-wrap {
+    margin-top: 715px;
+  }
+
+  .legal-subscription-item {
+    padding: 12px;
+  }
+
+  .legal-subscription-item h4 {
+    font-size: 24px;
+  }
+
+  .legal-subscription-item .item-btn a {
+    font-size: 20px;
+    padding: 12px 0;
+    border-radius: 12px;
+  }
+
+  .legal-subscription-subtitle {
+    margin: 45px 0;
+  }
+
+  .legal-subscription-list ul li {
+    font-size: 16px;
+    column-gap: 8px;
+    margin-bottom: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .legal-subscription-list ul li img {
+    width: 20px;
+  }
+
   /* footer css  */
 
   .footer-area {
@@ -350,6 +598,10 @@
 @media (max-width: 767px) {
   .container {
     max-width: 95%;
+  }
+
+  .header-area {
+    padding: 10px 0;
   }
 
   .header-logo {
@@ -374,6 +626,7 @@
 
   /* banner css  */
 
+  .hero-area,
   .banner-area {
     padding: 12px 0 16px;
   }
@@ -395,6 +648,20 @@
 
   .banner-title {
     display: none;
+  }
+
+  .hero-area .banner-title {
+    display: block;
+    margin-bottom: 35px;
+  }
+
+  .banner-title h1 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .banner-title h2 {
+    font-size: 24px;
   }
 
   .banner-items-wrap {
@@ -432,8 +699,12 @@
   }
 
   .faq-wrap.all-services .accordion-item {
-    padding: 12px;
     border-radius: 10px;
+  }
+
+  .faq-wrap.all-services .accordion-item .accordion-button,
+  .faq-wrap.all-services .accordion-item .accordion-body {
+    padding: 15px;
   }
 
   .banner-item-text h5 {
@@ -643,6 +914,186 @@
     font-size: 30px;
     font-weight: 600;
     padding: 20px 60px;
+  }
+
+  .banner-video-wrap {
+    margin-bottom: 24px;
+    border-radius: 15px;
+    height: 185px;
+  }
+
+  .video-wrap a img {
+    width: 40px;
+  }
+
+  .banner-sticky-wrap {
+    box-shadow: none;
+    border-radius: 0;
+    border-top: 0;
+    padding: 0;
+  }
+
+  .consultant-banner-wrap {
+    margin-bottom: 24px;
+  }
+
+  .consultant-banner-content .content-title {
+    margin-bottom: 12px;
+  }
+
+  .consultant-banner-content .content-title h2 {
+    font-size: 26px;
+  }
+
+  .consultant-banner-content .content-description {
+    margin-bottom: 12px;
+  }
+
+  .consultant-banner-content .item-img {
+    width: 30px;
+  }
+
+  .consultant-banner-content .content-items,
+  .consultant-banner-content .content-price {
+    column-gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .booking-banner-wrap {
+    display: block;
+  }
+  .booking-banner-wrap .booking-banner-img {
+    margin-bottom: 12px;
+  }
+
+  .booking-banner-wrap .booking-banner-img img {
+    max-width: 100%;
+  }
+
+  .booking-banner-wrap .booking-title h2 {
+    font-size: 25px;
+  }
+
+  .booking-nav-wrap .nav-tabs {
+    flex-wrap: nowrap;
+  }
+
+  .booking-nav-wrap .nav-tabs .nav-link {
+    flex-direction: column;
+    font-size: 14px;
+    background: #ecfafe;
+  }
+
+  .booking-nav-wrap .nav-link span {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .booking-tab-wrap {
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .booking-tab-title h2 {
+    font-size: 20px;
+  }
+
+  .booking-tab-warn {
+    margin-bottom: 35px;
+  }
+
+  .booking-tab-warn span {
+    font-size: 14px;
+  }
+
+  .booking-input-group label {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+  }
+
+  .booking-input-group label span {
+    order: 1px;
+  }
+
+  .booking-input-group label .icon-container {
+    width: 100%;
+    order: 2;
+  }
+
+  .booking-tab-btn button {
+    width: 100%;
+  }
+
+  /* legal subscription css  */
+
+  .banner-area.legal-subscription {
+    padding: 40px 0;
+    background: linear-gradient(180deg, #a3e2fb 69%, #edfaff 69%);
+  }
+  .banner-area.legal-subscription .container {
+    width: 95%;
+  }
+
+  .legal-subscription-title {
+    margin-bottom: 50px;
+  }
+
+  .legal-subscription-title h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .legal-subscription-img {
+    top: 175px;
+    right: 15px;
+    left: 15px;
+  }
+
+  .legal-subscription-img img {
+    width: 700px;
+    height: auto;
+  }
+
+  .legal-subscription-wrap {
+    margin-top: 370px;
+  }
+
+  .legal-subscription-item {
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  .legal-subscription-item h4 {
+    font-size: 30px;
+  }
+
+  .legal-subscription-item .item-btn a {
+    font-size: 20px;
+    padding: 20px 0;
+    border-radius: 12px;
+  }
+
+  .legal-subscription-subtitle {
+    margin: 30px 0;
+  }
+
+  .legal-subscription-subtitle h3 {
+    font-size: 30px;
+  }
+
+  .legal-subscription-list ul li {
+    font-size: 14px;
+    column-gap: 10px;
+    margin-bottom: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .legal-subscription-list ul li img {
+    width: 20px;
   }
 
   /* footer css  */
