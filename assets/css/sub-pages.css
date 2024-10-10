@@ -5,13 +5,23 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.sign-in-img {
+  height: 100%;
+}
+
+.sign-in-img img,
+.debt-invoice-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .sign-in-content {
-  padding: 125px;
+  padding: 80px;
 }
 
 .sign-in-logo a {
   display: inline-block;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }
 
 .sign-in-form {
@@ -98,7 +108,7 @@
 
 .track-service-area .sign-in-form {
   margin: 0 auto;
-  padding: 60px 0 100px;
+  padding: 60px 12px 100px;
 }
 
 /* track page css end */
@@ -894,6 +904,7 @@
   border: 1px solid #ddd;
   margin-bottom: 24px;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .faq-wrap.all-services .accordion-item .accordion-button,

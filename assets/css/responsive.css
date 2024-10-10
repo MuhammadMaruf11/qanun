@@ -16,7 +16,7 @@
   }
 
   .banner-items-wrap .item-text h2 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .banner-items-wrap .item-text p {
@@ -69,6 +69,41 @@
   .legal-subscription-img img {
     width: 600px;
     height: auto;
+  }
+
+  /* other pages css  */
+
+  .sign-in-content {
+    padding: 40px 60px;
+  }
+
+  .sign-in-logo a {
+    margin-bottom: 40px;
+  }
+
+  .form-title {
+    margin-bottom: 30px;
+  }
+
+  .form-title h2 {
+    font-size: 28px;
+  }
+
+  .banner-area.legal-contact .debt-invoice-img {
+    left: 20px;
+  }
+
+  .debt-invoice-img img {
+    width: 650px;
+    height: auto;
+  }
+
+  .debt-invoice-title h1 {
+    font-size: 65px;
+  }
+
+  .debt-invoice-subtitle h3 {
+    font-size: 24px;
   }
 }
 
@@ -123,6 +158,10 @@
 
   /* all services css  */
 
+  .services-title h2 {
+    font-size: 60px;
+  }
+
   .faq-wrap.all-services .accordion-item {
     border-radius: 12px;
   }
@@ -166,6 +205,10 @@
     padding: 50px 0 250px;
   }
 
+  .work-title h2 {
+    font-size: 60px;
+  }
+
   .work-left {
     left: 0px;
   }
@@ -201,7 +244,7 @@
   /* client review css  */
 
   .client-review-title h2 {
-    font-size: 72px;
+    font-size: 60px;
   }
 
   .client-comment p {
@@ -316,6 +359,36 @@
 
   .legal-subscription-list ul li img {
     width: 20px;
+  }
+
+  /* other pages css  */
+  .sign-in-content {
+    padding: 63px;
+  }
+
+  .sign-in-logo a {
+    margin-bottom: 65px;
+  }
+
+  .banner-area.legal-contact .debt-invoice-img {
+    left: 12px;
+  }
+
+  .debt-invoice-img img {
+    width: 475px;
+    height: auto;
+  }
+
+  .debt-invoice-wrap {
+    padding-left: 25px;
+  }
+
+  .debt-invoice-title h1 {
+    font-size: 52px;
+  }
+
+  .debt-invoice-subtitle h3 {
+    font-size: 24px;
   }
 }
 
@@ -591,6 +664,36 @@
   .footer-social {
     margin-bottom: 24px;
   }
+
+  /* other pages css  */
+
+  .sign-in-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .sign-in-logo a {
+    margin-bottom: 70px;
+  }
+
+  .sign-in-form {
+    max-width: 100%;
+  }
+
+  .banner-area.legal-contact {
+    background: #e0f6ff;
+  }
+
+  .debt-invoice-wrap {
+    padding-left: 0;
+  }
+
+  .debt-invoice-title h1 {
+    font-size: 55px;
+    color: #000;
+  }
+  .debt-invoice-title h1 br {
+    display: none;
+  }
 }
 
 /* Mobile layout max 425 */
@@ -635,13 +738,13 @@
     max-width: 100%;
   }
 
-  .banner-area .row > *:nth-child(1),
-  .banner-area .row > *:nth-child(3) {
+  .banner-area.home-page .row > *:nth-child(1),
+  .banner-area.home-page .row > *:nth-child(3) {
     padding-left: 4px;
     padding-right: 2px;
   }
-  .banner-area .row > *:nth-child(2),
-  .banner-area .row > *:nth-child(4) {
+  .banner-area.home-page .row > *:nth-child(2),
+  .banner-area.home-page .row > *:nth-child(4) {
     padding-left: 2px;
     padding-right: 4px;
   }
@@ -1143,5 +1246,41 @@
     color: #707070;
   }
 
-  /* seach component css */
+  /* other pages css  */
+
+  .sign-in-wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .sign-in-content {
+    padding: 24px;
+  }
+
+  .sign-in-logo a {
+    margin-bottom: 70px;
+  }
+
+  .sign-in-form {
+    max-width: 100%;
+  }
+
+  .banner-area.legal-contact {
+    background: #e0f6ff;
+  }
+
+  .debt-invoice-wrap {
+    padding-left: 0;
+  }
+
+  .debt-invoice-title h1 {
+    font-size: 28px;
+  }
+
+  .debt-invoice-subtitle h3 {
+    font-size: 24px;
+  }
+
+  .debt-invoice-title h1 br {
+    display: none;
+  }
 }
