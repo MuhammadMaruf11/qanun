@@ -10,7 +10,7 @@
 }
 
 .banner-title h1 {
-  font-size: 80px;
+  font-size: 75px;
   line-height: 100px;
   color: #000000;
   text-transform: uppercase;
@@ -30,6 +30,7 @@
   padding: 30px 20px 0;
   overflow: hidden;
   box-shadow: 0 0 10px #00000010;
+  position: relative;
 }
 
 .banner-items-wrap.first {
@@ -48,26 +49,51 @@
   background: linear-gradient(135deg, #e1e4ff 0%, #858dd1 100%);
 }
 
-.banner-items-wrap.fourth {
-  padding-right: 0;
-}
-
 .banner-items-wrap.fourth .item-img {
-  margin: 0 0 0 auto;
-}
-
-.banner-items-wrap:hover {
-  background: linear-gradient(135deg, #fff 0%, #fff 100%);
-}
-
-.banner-items-wrap.fourth:hover .item-text h2,
-.banner-items-wrap.fourth:hover .item-text p {
-  color: #000;
+  margin-right: -20px;
 }
 
 .banner-items-wrap .item-img {
   margin: 0 auto;
   max-height: 365px;
+}
+.banner-items-wrap .item-hover-wrap {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: opacity 0.3s linear, visibility 0.3s linear;
+}
+
+.banner-items-wrap:hover {
+  border: 3px inset #000;
+}
+
+.banner-items-wrap:hover .item-hover-wrap {
+  visibility: visible;
+  opacity: 1;
+}
+
+.banner-items-wrap .item-hover-wrap p {
+  display: none;
+  font-size: 25px;
+  width: 74%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner-items-wrap:hover .item-hover-wrap p {
+  display: block;
+  color: #000;
 }
 
 .banner-items-wrap .item-text h2 {
@@ -510,8 +536,8 @@
 
 .client-review-button .btn-prev:hover,
 .client-review-button .btn-next:hover {
-  background: #00936a;
-  border: 2px solid #00936a;
+  background: #1488ad;
+  border: 2px solid #1488ad;
 }
 
 .client-review-button .btn-prev:hover img,

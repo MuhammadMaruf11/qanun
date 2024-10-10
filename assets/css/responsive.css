@@ -23,6 +23,11 @@
     font-size: 18px;
   }
 
+  .banner-items-wrap .item-hover-wrap p {
+    font-size: 18px;
+    width: 73%;
+  }
+
   .join-us-wrap {
     padding: 80px 0 0 50px;
   }
@@ -154,6 +159,11 @@
 
   .banner-items-wrap .item-text p {
     font-size: 12px;
+  }
+
+  .banner-items-wrap .item-hover-wrap p {
+    font-size: 16px;
+    width: 89%;
   }
 
   /* all services css  */
@@ -426,6 +436,11 @@
 
   .banner-items-wrap .item-text p {
     font-size: 16px;
+  }
+
+  .banner-items-wrap .item-hover-wrap p {
+    font-size: 20px;
+    width: 72%;
   }
 
   /* all services css  */
@@ -785,6 +800,11 @@
 
   .banner-items-wrap .item-text p {
     font-size: 10px;
+  }
+
+  .banner-items-wrap .item-hover-wrap p {
+    font-size: 12px;
+    width: 88%;
   }
 
   /* all services css  */
